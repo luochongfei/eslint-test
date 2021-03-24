@@ -1,16 +1,20 @@
 module.exports = {
     env: {
         node: true,
-        jquery: true,
-        es6: true
+        es6: true,
     },
-    // parser: '@babel/eslint-parser',
     parserOptions: {
-        ecmaVersion: 2021,
-        sourceType: 'module'
+        ecmaVersion: 12,
+        sourceType: 'module',
     },
+    extends: [
+        'airbnb-base',
+        'plugin:vue/recommended',
+    ],
     rules: {
         semi: 'error',
-        'no-undef': 'error',
-    }
+        // 'no-undef': 'error',
+        indent: ['error', 4],
+        'no-console': 'off',
+    },
 };

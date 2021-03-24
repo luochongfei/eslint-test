@@ -1,6 +1,6 @@
-var a = 1;
-new Promise();
+const a = 1;
+// new Promise();
 async function show() {
-    console.log(123);
+    console.log(a);
 }
 export default show();

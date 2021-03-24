@@ -1,9 +1,6 @@
-const a = 1;
-alert(a);
-console.log(global);
-console.log(a);
-
-function add(a1, b) {
-    return a1 + b;
+var a = 1;
+new Promise();
+async function show() {
+    console.log(123);
 }
-add(4, 3);
+export default show();

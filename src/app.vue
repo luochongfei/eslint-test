@@ -1,13 +1,11 @@
 <template>
-  <div></div>
+    <div>
+        <span>we</span>
+    </div>
 </template>
 
 <script>
-export default {
-
-};
+    export default {
+        name: 'App',
+    };
 </script>
-
-<style>
-
-</style>

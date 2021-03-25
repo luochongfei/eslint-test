@@ -16,9 +16,9 @@ module.exports = {
         {
             files: ['*.vue'],
             rules: {
-                indent: 'off'
-            }
-        }
+                indent: 'off',
+            },
+        },
     ],
     rules: {
         semi: 'error',
@@ -27,7 +27,7 @@ module.exports = {
         'no-console': 'off',
         'vue/html-indent': ['error', 4],
         'vue/script-indent': ['error', 4, {
-            baseIndent: 1
+            baseIndent: 1,
         }],
     },
 };
